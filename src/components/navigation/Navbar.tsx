@@ -26,9 +26,9 @@ const Navbar = ({ theme, toggleTheme }: NavbarProps) => {
         <nav className="hidden md:flex items-center gap-6">
           <Link to="/" className="text-foreground/80 hover:text-foreground transition">Home</Link>
           <Link to="/about" className="text-foreground/80 hover:text-foreground transition">About</Link>
-          <Link to="/features" className="text-foreground/80 hover:text-foreground transition">Features</Link>
+          <Link to="/artists" className="text-foreground/80 hover:text-foreground transition">For Artists</Link>
+          <Link to="/fans" className="text-foreground/80 hover:text-foreground transition">For Fans</Link>
           <Link to="/pricing" className="text-foreground/80 hover:text-foreground transition">Pricing</Link>
-          <Link to="/contact" className="text-foreground/80 hover:text-foreground transition">Contact</Link>
         </nav>
 
         <div className="flex items-center gap-4">
@@ -75,9 +75,9 @@ const Navbar = ({ theme, toggleTheme }: NavbarProps) => {
           <nav className="flex flex-col space-y-4">
             <Link to="/" className="px-4 py-2 hover:bg-accent rounded-md transition" onClick={toggleMenu}>Home</Link>
             <Link to="/about" className="px-4 py-2 hover:bg-accent rounded-md transition" onClick={toggleMenu}>About</Link>
-            <Link to="/features" className="px-4 py-2 hover:bg-accent rounded-md transition" onClick={toggleMenu}>Features</Link>
+            <Link to="/artists" className="px-4 py-2 hover:bg-accent rounded-md transition" onClick={toggleMenu}>For Artists</Link>
+            <Link to="/fans" className="px-4 py-2 hover:bg-accent rounded-md transition" onClick={toggleMenu}>For Fans</Link>
             <Link to="/pricing" className="px-4 py-2 hover:bg-accent rounded-md transition" onClick={toggleMenu}>Pricing</Link>
-            <Link to="/contact" className="px-4 py-2 hover:bg-accent rounded-md transition" onClick={toggleMenu}>Contact</Link>
             
             <div className="border-t pt-4 mt-2">
               <Link
