@@ -32,14 +32,14 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Column 2 - Products */}
+          {/* Column 2 - For Users */}
           <div className="md:col-span-1">
-            <h3 className="text-sm font-semibold mb-4">Products</h3>
+            <h3 className="text-sm font-semibold mb-4">For Users</h3>
             <ul className="space-y-3">
-              <li><Link to="/features" className="text-sm text-muted-foreground hover:text-foreground">Features</Link></li>
+              <li><Link to="/artists" className="text-sm text-muted-foreground hover:text-foreground">For Artists</Link></li>
+              <li><Link to="/fans" className="text-sm text-muted-foreground hover:text-foreground">For Fans</Link></li>
               <li><Link to="/pricing" className="text-sm text-muted-foreground hover:text-foreground">Pricing</Link></li>
-              <li><Link to="/integrations" className="text-sm text-muted-foreground hover:text-foreground">Integrations</Link></li>
-              <li><Link to="/beta" className="text-sm text-muted-foreground hover:text-foreground">Beta Program</Link></li>
+              <li><Link to="/demo" className="text-sm text-muted-foreground hover:text-foreground">Request Demo</Link></li>
             </ul>
           </div>
 
