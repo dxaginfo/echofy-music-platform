@@ -4,6 +4,8 @@ import { Routes, Route } from 'react-router-dom'
 // Page components
 import HomePage from '@/pages/HomePage'
 import AboutPage from '@/pages/AboutPage'
+import ArtistsPage from '@/pages/ArtistsPage'
+import FansPage from '@/pages/FansPage'
 import NotFoundPage from '@/pages/NotFoundPage'
 
 // Layout components
@@ -39,6 +41,8 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/artists" element={<ArtistsPage />} />
+        <Route path="/fans" element={<FansPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </MainLayout>
